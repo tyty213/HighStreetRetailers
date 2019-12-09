@@ -1,0 +1,174 @@
+body {
+  padding: 0;
+  margin: 1em;
+  background: #f2f6e9;
+  text-indent: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+/*--- navigation bar ---*/
+.navbar {
+  background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+#container{
+	
+	font-color: red;
+}
+
+.signuperror{
+  font-size: 1.5em;
+  font-color: red;
+}
+
+.main-article-title{
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-article-category,.author-name:hover,.sub-article-author:hover{
+  text-color: rgba(0,0,0,0,4);
+}
+
+.main-article-title:hover,.author-name,.sub-article-title:hover{
+  text-decoration: underline;
+}
+
+.recent-articles{
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.sub-article-title{
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sub-article-category,.sub-article-date{
+  color:rgba(0,0,0,0,4);
+  font-size: 0.8em;
+}
+
+.sub-article-author{
+  text-decoration: underline;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+textarea{
+  width: 710px;
+  height: 80px;
+  background: #fff;
+  resize: none;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  background-color: #282828;
+  border: none;
+  color: #fff;
+  font-family: arial;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.comment-box{
+
+  width:710;
+  padding: 20px;
+  margin-bottom: 4px;
+  background-color: #d3d3d3;
+  border-radius: 4px;
+  position: relative;
+
+}
+
+.comment-box p{
+
+  font-family: arial;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 200;
+
+}
+.comment-box h1{
+
+  font-family: arial;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 250;
+
+}
+.comment-box h2{
+
+  font-family: arial;
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 150;
+
+}
+
+.edit-form{
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+}
+
+.edit-form button{
+
+  width: 40px;
+  height: 20px;
+  color: black;
+  background-color: transparent;
+  opacity: 0.5;
+}
+.edit-form button:hover{
+
+  opacity: 1;
+  style
+}
+
+.delete-form{
+
+  position: absolute;
+  top: 0px;
+  right: 60px;
+
+}
+
+.delete-form button{
+
+  width: 40px;
+  height: 20px;
+  color: black;
+  background-color: transparent;
+  opacity: 0.5;
+}
+.delete-form button:hover{
+
+  opacity: 1;
+  style
+}
